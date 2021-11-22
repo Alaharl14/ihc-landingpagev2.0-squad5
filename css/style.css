@@ -1,0 +1,352 @@
+body{
+    margin: 0;
+    background: #EDF8F0;
+}
+
+header{
+    width: 100%;
+}
+
+footer{
+    width: 100%;
+    background: #89B4C5;
+    opacity: 80%;
+}
+
+hr{
+    height: 10px;
+    background: #2D4140;
+    opacity: 70%;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 50px;
+    font-family: "Yatra One";
+}
+
+h2{
+    font-weight: normal;
+    font-size: 40px;
+    font-family: "Yatra One";
+}
+
+
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.row2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.row-volver{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+}
+
+
+.caja-nav{
+    text-align: center;
+    flex: 1;
+    max-width: 300px;
+    margin: 10px;
+}
+
+.caja-nav a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 36px;
+    font-family: "Yatra One";
+}
+
+.caja-nav img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.separar{
+    background-color: #BDDAE0;
+}
+
+.caja2{
+    text-align: left;
+    flex: 1;
+    max-width: 750px;
+    margin: 10px;
+}
+
+.caja-parrafo{
+    text-align: center;
+    flex: 1;
+    max-width: 300px;
+    margin: 10px;
+}
+
+.caja-parrafo p{
+    font-size: 20px;
+    font-family: Ubuntu;
+}
+
+.caja-timer, .caja-Decisiones, .caja-Metodos{
+    flex: 1;
+    max-width: 100px;
+}
+
+.caja-timer img , .caja-Metodos img, .caja-Decisiones img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.caja3{
+    background-color: #BDDAE0;
+    flex: 1;
+    max-width: 800px;
+}
+
+.caja3 img{
+    height: 80%;
+    width: 80%;
+    object-fit: contain;
+}
+
+.caja-row2{
+    text-align: center;
+    flex: 1;
+    max-width: 300px;
+    margin: 10px;
+}
+
+.caja-row2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.caja-linea{
+    text-align: center;
+    flex: 1;
+    min-width: 200px;
+}
+
+.caja-linea p{
+    font-size: 20px;
+    font-family: Ubuntu;
+}
+
+.a-volver{
+    padding: 15px 25px;
+    border-radius: 40px;
+    color: white;
+    background: #2D4140;
+    opacity: 60%;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Yatra One";
+}
+
+.caja-texto{
+    text-align: center;
+    flex: 1;
+    max-width: 1000px;
+    margin: 10px;
+}
+
+.p-funcion{
+    color: black;
+    font-size: 30px;
+    font-family: Ubuntu;
+}
+
+.caja-funcion1{
+    background-color: #888A7C;
+    opacity: 40%;
+    text-align: center;
+    flex: 1;
+    min-width: 300px;
+    margin: 10px;
+}
+
+.caja-funcion2{
+    background-color: #BDDAE0;
+    opacity: 50%;
+    text-align: center;
+    flex: 1;
+    min-width: 300px;
+    margin: 10px;
+}
+
+.caja-funcion3{
+    background-color: #925632;
+    opacity: 40%;
+    text-align: center;
+    flex: 1;
+    min-width: 300px;
+    margin: 10px;
+}
+
+.caja-imagen{
+    flex: 1;
+    max-width: 450px;
+    margin: 10px;
+}
+
+.caja-imagen img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.caja1{
+    background: #925632;
+    opacity: 70% ;
+    text-align: center;
+    flex: 1;
+    max-width: 350px;
+    margin: 10px;
+}
+
+.caja1 p {
+    font-size: 20px;
+    font-family: Ubuntu;
+}
+
+
+.p-preguntas{
+    font-size: 20px;
+    font-family: "Yatra One";
+}
+
+.f-caja{
+    text-align: center;
+    flex: 1;
+    max-width: 200px;
+}
+
+.f-caja img{
+    height: 70%;
+    width: 70%;
+    object-fit: contain;
+}
+
+.f-img{
+    text-align: center;
+}
+
+.f1 , .f2{
+    margin: 10px;
+    text-align: center;
+    flex: 1;
+
+}
+
+.f1 p{
+    font-weight: bold;
+    font-size: 26px;
+    font-family: Ubuntu;
+}
+
+.f2 p{
+    font-weight: normal;
+    font-size: 24px;
+    font-family: Ubuntu;
+}
+.caja-grafico{
+    text-align: center;
+    flex: 1;
+    max-width: 500px;
+    margin: 10px;
+}
+
+.caja-grafico p{
+    font-size: 20px;
+    font-family: Ubuntu;
+}
+
+.caja1 p::first-line{
+    font-size: 34px;
+    font-weight: bold;
+}
+
+
+
+@media (max-width: 960px){
+    .caja-nav img{
+         display: none;
+    }
+
+    .caja-nav{
+        flex: 100%;
+        max-width: 550px;
+
+    }
+}
+
+@media (max-width: 800px) {
+    .caja1{
+        flex: 100%;
+        max-width: 450px;
+    }
+    .caja2{
+        flex: 100%;
+        max-width: 450px;
+    }
+    .li-nav a{
+        font-size: 20px;
+    }
+    .caja-linea{
+        flex: 100%;
+        max-width: 450px;
+        display: none;
+    }
+
+    .caja-grafico{
+        flex: 100%;
+        max-width: 500px;
+    }
+
+    .caja-row2{
+        flex: 100%;
+        max-width: 200px;
+    }
+
+    .f-caja, .f1, .f2{
+        flex: 100%;
+        max-width: 200px;
+    }
+
+    .caja-Metodos, .caja-Decisiones, .caja-timer{
+        flex: 100%;
+    }
+
+    .caja-imagen{
+        flex: 100%;
+        max-width: 150px;
+    }
+
+    .caja3 img{
+        display: none;
+    }
+
+}
+
+@media (max-width: 1500px){
+    .caja-funcion1, .caja-funcion2, .caja-funcion3{
+        flex: 100%;
+        max-width: 450px;
+    }
+}
+
+
+
